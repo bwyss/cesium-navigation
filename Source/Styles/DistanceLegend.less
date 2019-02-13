@@ -1,11 +1,15 @@
+#distanceLegendDiv {
+    border-radius: 5px;
+}
+
 .distance-legend {
     .floating-horizontal;
-    right: 25px;
-    bottom: 30px;
-    height: 30px;
-    width: 125px;
-    border: 1px solid rgba(255,255,255,0.1);
-    box-sizing: content-box;
+    left: 12px;
+    bottom: 5px;
+    height: 24px;
+    width: 111px;
+    background-color: #FFF;
+    border-radius: 5px;
 }
 
 .distance-legend-label {
@@ -13,19 +17,19 @@
     font-family: @default-font;
     font-size: 14px;
     font-weight: lighter;
-    line-height: 30px;
-    color: @floating-text-color;
-    width: 125px;
+    color: black;
+    width: 55px;
     text-align: center;
 }
 
 .distance-legend-scale-bar {
-    border-left: 1px solid @floating-text-color;
-    border-right: 1px solid @floating-text-color;
-    border-bottom: 1px solid @floating-text-color;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
     position: absolute;
     height: 10px;
-    top: 15px;
+    top: 12px;
+    left: 6px !important;
 }
 
 @media print {
